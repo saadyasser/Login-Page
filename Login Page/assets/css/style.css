@@ -1,0 +1,197 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #5788d8;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.login {
+    width: 100%;
+    height: 100vh;
+    background:url(../imgs/login-background.svg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.flex-row {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.login-media, .login-content {
+    width: 50%;
+    height: 100vh;
+    padding-top: 50px;
+    box-sizing: border-box;
+
+}
+.login-media {
+    background-color: #fafbfd;
+}
+.login-content {
+    background-color: rgba(255, 255, 255, 1);
+}
+.login-media .card {
+    width: 65%;
+    padding-left: 60px;
+}
+.media_text {
+    margin-right: 120px;
+    font-size: 12px;
+    color: #d4d5d8;
+    margin-left: 10px;
+  
+    font-weight: 500;
+}
+.login-media_img {
+    display: block;
+    width: 90%;
+    padding-left: 50px;    
+}
+
+.login-content header {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: flex-end;
+}
+.login-content header div {
+    display: flex;
+    justify-content: flex-end;
+}
+.login-content header p {
+    font-size: 11px;
+    font-weight: 700;
+    color: #90959d;
+}
+
+.login-content .lang {
+    margin-right: 10px;
+}
+.login-content .card {
+    width:65%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.login-content .card p {
+    font-size: 13px;
+    color: #bbbabf;
+    margin: 12px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.login-content .card .card_description {
+    text-transform: capitalize;
+}
+.login-content .card h1 {
+    color: #343f54;
+    margin-left: 0px;
+    margin-bottom: 13px;
+}
+.login-content .card a {
+    text-decoration: none;
+    color: #5788d8;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+form {
+    width: 65%;
+    margin: 0 auto;
+}
+.form-control {
+    margin-bottom: 15px;
+}
+.form-control .input {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #f2f2f4;
+    padding: 15px 12px;
+    border-radius: 5px;
+    position: relative;
+}
+.form-control input {
+    width: 100%;
+    outline: none;
+}
+.form-control .input i {
+    color:#D0D0D0;
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+}
+.form-control label {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #767d87;
+    margin-bottom: 5px;
+}
+.form-control input {
+    border: none;
+}
+::placeholder {
+    color: #c2c2c3;
+  }
+  
+  .form-control button {
+    width: 100%;
+    padding: 15px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #397ef7;
+    color: #cbd9f3;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: .5px;
+    font-family: Arial, sans-serif;
+
+  }
+  .form-control .signup-google {
+    background-color: #fff;
+    border: 1px solid #eee;
+    color: #7a8591;
+   
+  }
+  .form-control .signup-google span {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-family: Arial, sans-serif;
+  }
+  .form-control .signup-google i {
+    color: #387bd1;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .form-control button span {
+    margin-left: 15px;
+  }
+  footer {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  footer p {
+    margin-right: 120px;
+    font-size: 10px;
+    color: #cac9cd;
+    margin-bottom: 3px;
+    margin-top: 0px;
+  }
+  footer  a {
+    text-decoration: none;
+    color: #5788d8bd;
+    font-weight: 700;
+    font-size: 10px;
+
+}
+  
